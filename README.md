@@ -4,10 +4,6 @@ Autonomous navigation using **TurtleBot3 Burger**, **ROS 2 Humble**, **Gazebo Cl
 
 This project demonstrates goal-based autonomous navigation in a Gazebo obstacle environment, with localization and navigation visualized in RViz2.
 
-## Demonstration
-
-- **Screen recording (1–2 minutes):** _Link to be added after upload_
-
 ## Environment
 
 | Component | Setup |
