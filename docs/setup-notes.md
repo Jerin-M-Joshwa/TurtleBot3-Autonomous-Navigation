@@ -50,7 +50,7 @@ The map server was active and `/map` published an OccupancyGrid. This map was su
 
 ## Remaining repository work
 
-- Copy `map.pgm` into `maps/` on the Ubuntu machine and commit it.
-- Add screenshots from the actual simulation.
+- `maps/map.pgm` and `maps/map.yaml` have been committed to the public repository.
+- Add selected screenshots from the actual simulation.
 - Add the public demo video link after upload.
 - Re-test the README instructions from a clean terminal/session.
