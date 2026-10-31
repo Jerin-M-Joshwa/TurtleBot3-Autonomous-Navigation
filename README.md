@@ -95,4 +95,4 @@ Map files, screenshots, and the demonstration video link can be added as they ar
 
 - [TurtleBot3 documentation](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/)
 - [ROS 2 Humble documentation](https://docs.ros.org/en/humble/)
-- [Nav2 documentation](https://docs.nav2.org/
+- [Nav2 documentation](https://docs.nav2.org/)
