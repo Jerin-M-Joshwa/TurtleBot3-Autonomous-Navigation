@@ -86,7 +86,7 @@ During the test run:
 └── maps/
     ├── README.md
     ├── map.yaml
-    └── map.pgm  # copy this binary image from the installed package
+    └── map.pgm
 ```
 
 Do not commit generated ROS `build/`, `install/`, or `log/` directories.
