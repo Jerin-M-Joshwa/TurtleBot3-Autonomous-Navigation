@@ -55,7 +55,7 @@ Nav2's map server was observed loading the standard map from the installed Turtl
 /opt/ros/humble/share/turtlebot3_navigation2/map/map.yaml
 ```
 
-The map YAML references `map.pgm`. Its metadata and source are documented in [`maps/README.md`](maps/README.md).
+The map metadata is included in [`maps/map.yaml`](maps/map.yaml), and its image asset `map.pgm` belongs beside it. See [`maps/README.md`](maps/README.md) for source and attribution.
 
 ### 3. Initialize localization and send a goal
 
@@ -86,20 +86,19 @@ During the test run:
 └── maps/
     ├── README.md
     ├── map.yaml
-    └── map.pgm
+    └── map.pgm  # copy this binary image from the installed package
 ```
 
-The `map.yaml` and `map.pgm` entries are intended for the locally copied map assets. Do not commit generated ROS `build/`, `install/`, or `log/` directories.
+Do not commit generated ROS `build/`, `install/`, or `log/` directories.
 
 ## Notes
 
 - This project uses existing TurtleBot3 and Nav2 packages; it does not implement a custom path-planning algorithm.
 - The map used during testing was the map installed with the TurtleBot3 Nav2 package, not a map generated with SLAM for this exercise.
 - The Gazebo launch command above is the command found in the local shell history. The setup was tested successfully on the configured Ubuntu 22.04.5 / ROS 2 Humble environment.
-- Check package and asset redistribution terms before publishing copies of installed map files.
 
 ## References
 
 - [TurtleBot3 documentation](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/)
 - [ROS 2 Humble documentation](https://docs.ros.org/en/humble/)
-- [Nav2 documentation](https://docs.nav2.org/
+- [Nav2 documentation](https://docs.nav2.org/)
