@@ -8,10 +8,10 @@ Source directory on the test machine:
 /opt/ros/humble/share/turtlebot3_navigation2/map/
 ```
 
-The map YAML references the image by the relative filename `map.pgm`. Keep both files together in this directory:
+Both map files are kept together:
 
 - `map.yaml` — occupancy grid metadata
-- `map.pgm` — occupancy grid image
+- `map.pgm` — occupancy grid image referenced by `map.yaml`
 
 Map metadata from the installed YAML:
 
@@ -23,4 +23,4 @@ Map metadata from the installed YAML:
 | Occupied threshold | `0.65` |
 | Free threshold | `0.196` |
 
-The map was supplied by the installed TurtleBot3 Nav2 package; it was not generated with SLAM for this exercise. Check package and asset redistribution terms before publishing the copied files.
+The map was supplied by the installed TurtleBot3 Nav2 package; it was not generated with SLAM for this exercise. The ROS package index lists `turtlebot3_navigation2` under the Apache 2.0 license. Preserve upstream attribution and license notices when redistributing package assets: [ROS package overview](https://index.ros.org/p/turtlebot3_navigation2/).
