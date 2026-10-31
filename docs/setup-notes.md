@@ -48,9 +48,6 @@ The map server was active and `/map` published an OccupancyGrid. This map was su
 4. Send a goal using **Nav2 Goal**.
 5. Verify the controller reports goal completion.
 
-## Remaining repository work
+## Submission reminder
 
-- `maps/map.pgm` and `maps/map.yaml` have been committed to the public repository.
-- Add selected screenshots from the actual simulation.
-- Add the public demo video link after upload.
-- Re-test the README instructions from a clean terminal/session.
+The 1–2 minute demonstration recording and the answers about approach, challenges and learnings are submitted separately through the Antropi Robotics Google Form. They do not need to be committed to this repository.
