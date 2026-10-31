@@ -47,7 +47,3 @@ The map server was active and `/map` published an OccupancyGrid. This map was su
 3. Confirm the `map → odom` transform is available.
 4. Send a goal using **Nav2 Goal**.
 5. Verify the controller reports goal completion.
-
-## Submission reminder
-
-The 1–2 minute demonstration recording and the answers about approach, challenges and learnings are submitted separately through the Antropi Robotics Google Form. They do not need to be committed to this repository.
