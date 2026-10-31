@@ -1,0 +1,27 @@
+# ROS 2 / colcon generated files
+build/
+install/
+log/
+
+# ROS / Gazebo runtime and cache
+.ros/
+.gazebo/
+*.bag
+*.db3
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large recordings (link to hosted video instead)
+*.mp4
+*.mkv
+*.mov
